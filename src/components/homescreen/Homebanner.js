@@ -31,8 +31,6 @@ const Homebanner = () => {
           <img src={bannerChair} alt="" className="bannerImage" />
         </div>
       </div>
-
-     
     </div>
   );
 };

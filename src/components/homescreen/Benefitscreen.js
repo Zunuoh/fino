@@ -31,7 +31,6 @@ const Benefitscreen = () => {
                 src={LocationIcon}
                 alt=""
                 className="iconImage"
-                className="iconImage"
               />
             </div>
             <div className="iconHeader">Free shipping</div>
