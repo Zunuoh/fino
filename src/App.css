@@ -148,4 +148,42 @@ body{
   height: 35px;
 }
 
+.contactusDiv{
+  display: flex;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.contactusText{
+  width: 40ch;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.contactusTextContainer{
+  padding: 10px;
+  margin-left: 100px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.contactusIcon{
+    width: 110%;
+    height: 110%;
+    margin-left: 60px;
+}
+
+.contactusHeader{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.contactusFormContainer{
+  margin-top: 25%;
+  padding-left: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
 
