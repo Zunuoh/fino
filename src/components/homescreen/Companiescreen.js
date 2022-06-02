@@ -1,8 +1,8 @@
 import React from 'react'
-import GoogleImage from "../assets/google.png"
-import AmazonImage from "../assets/amazon.png"
-import EbayImage from "../assets/ebay.png"
-import AirbnbImage from "../assets/airbnb.jpg"
+import GoogleImage from "../../assets/google.png"
+import AmazonImage from "../../assets/amazon.png"
+import EbayImage from "../../assets/ebay.png"
+import AirbnbImage from "../../assets/airbnb.jpg"
 
 const Companiescreen = () => {
     return (

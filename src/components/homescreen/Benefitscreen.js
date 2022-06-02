@@ -1,7 +1,7 @@
 import React from "react";
-import QualityIcon from "../assets/quality.png";
-import LocationIcon from "../assets/location.png";
-import SupportIcon from "../assets/support.png";
+import QualityIcon from "../../assets/quality.png";
+import LocationIcon from "../../assets/location.png";
+import SupportIcon from "../../assets/support.png";
 
 const Benefitscreen = () => {
   return (

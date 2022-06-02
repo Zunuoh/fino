@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import bannerChair from "../assets/bannerChair.png";
+import bannerChair from "../../assets/bannerChair.png";
 
 const Homebanner = () => {
   return (
