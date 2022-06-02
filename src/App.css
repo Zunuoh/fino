@@ -90,4 +90,62 @@ body{
   height: 70px;
 }
 
+.benefitsHeader{
+  display: flex;
+  justify-content: center;
+  max-height: 5ch;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.benefitsContainer{
+  padding:20px
+}
+
+.iconContainer{
+  display: flex;
+  margin-top: 1 0px;
+}
+
+.iconDiv{
+  display: flex;
+  flex: 3px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.iconHeader{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  /* margin-left: -18px; */
+  margin-top: 10px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconText{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
+  min-width: 5ch;
+}
+
+.iconImageDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconImage{
+  width: 35px;
+  height: 35px;
+}
+
 
