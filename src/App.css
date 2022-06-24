@@ -184,6 +184,19 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+.aboutusHeaderContainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.aboutusContainer{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
 
 
 
