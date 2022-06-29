@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import bannerChair from "../../assets/bannerChair.png";
 
-const Homebanner = () => {
+const HomeBanner = () => {
   return (
     <div className="bannerContainer">
       <div className="leftBanner">
@@ -35,4 +35,4 @@ const Homebanner = () => {
   );
 };
 
-export default Homebanner;
+export default HomeBanner;

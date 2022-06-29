@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../Header";
+import Header from "../../components/header/Header";
 import { Row, Col } from "react-bootstrap";
 import ContactusImage from "../../assets/contactus.png";
 import ContactusForm from "./ContactusForm";
