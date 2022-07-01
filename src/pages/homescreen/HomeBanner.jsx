@@ -1,6 +1,6 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 import bannerChair from "../../assets/bannerChair.png";
+import ButtonComponent from "../../components/button/ButtonComponent";
 
 const HomeBanner = () => {
   return (
@@ -14,16 +14,7 @@ const HomeBanner = () => {
           ddd
         </div>
         <div className="bannerButton">
-          <Button
-            style={{
-              backgroundColor: "#FCD34D",
-              border: "none",
-              fontFamily: "Montserrat, sans-serif",
-              fontWeight: "bold",
-            }}
-          >
-            Shop now
-          </Button>
+          <ButtonComponent />
         </div>
       </div>
       <div className="bannerImageContainer">
