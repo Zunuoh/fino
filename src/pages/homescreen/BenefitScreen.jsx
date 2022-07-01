@@ -3,7 +3,7 @@ import QualityIcon from "../../assets/quality.png";
 import LocationIcon from "../../assets/location.png";
 import SupportIcon from "../../assets/support.png";
 
-const Benefitscreen = () => {
+const BenefitScreen = () => {
   return (
     <div className="benefitsContainer">
       <div className="benefitsHeader">We provide the best benefits</div>
@@ -27,11 +27,7 @@ const Benefitscreen = () => {
         <div className="iconDiv">
           <div>
             <div className="iconImageDiv">
-              <img
-                src={LocationIcon}
-                alt=""
-                className="iconImage"
-              />
+              <img src={LocationIcon} alt="" className="iconImage" />
             </div>
             <div className="iconHeader">Free shipping</div>
             <div className="iconText">
@@ -60,4 +56,4 @@ const Benefitscreen = () => {
   );
 };
 
-export default Benefitscreen;
+export default BenefitScreen;
