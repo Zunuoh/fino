@@ -1,5 +1,6 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import { Button, Accordion } from "react-bootstrap";
+import ShirtOne from "../../assets/shirt1.jpeg";
 
 const PopularProducts = () => {
   return (
@@ -10,17 +11,27 @@ const PopularProducts = () => {
         <div className="similarProducts">jfjf</div>
       </div>
 
-      <div className="productsButton">
-        <Button
-          style={{
-            backgroundColor: "#FCD34D",
-            borderRadius: 1,
-            border: "none",
-          }}
-        >
-          See all popular products...
-        </Button>
-      </div>
+      <Accordion>
+        <Accordion.Item eventKey="0">
+          <div
+            style={{
+              backgroundColor: "#FCD34D",
+              borderRadius: 1,
+              border: "none",
+            }}
+          >
+            {" "}
+            <Accordion.Header> See all popular products...</Accordion.Header>
+          </div>
+
+          <Accordion.Body>
+            <div className="similarProductsContainer">
+              <div className="similarProducts">jfjf</div>
+              <div className="similarProducts">jfjf</div>
+            </div>
+          </Accordion.Body>
+        </Accordion.Item>
+      </Accordion>
     </div>
   );
 };

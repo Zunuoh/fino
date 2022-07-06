@@ -12,7 +12,9 @@ const ProductScreen = () => {
 
         <SimilarProducts />
 
-        <PopularProducts />
+        <div style={{ marginTop: 30 }}>
+          <PopularProducts />
+        </div>
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ const ContactusScreen = () => {
       <Header />
       <div>
         <Row>
-          <Col sm={7} style={{ backgroundColor: "" }}>
+          <Col sm={7}>
             <div className="contactusDiv">
               <div className="contactusIconDiv">
                 <img src={ContactusImage} alt="" className="contactusIcon" />

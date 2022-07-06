@@ -12,7 +12,7 @@ const ButtonComponent = () => {
               fontWeight: "bold",
             }}
           >
-           {}
+            Shop now
           </Button>
     </div>
   )

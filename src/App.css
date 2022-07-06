@@ -240,16 +240,18 @@ body{
 }
 
 .productContainer{
-  padding: 40px;
+  padding: 20px;
 }
 
 .productsHeaders{
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 .similarProductsContainer{
   margin-top: 20px;
   display: flex;
+  
 }
 
 .similarProducts{
@@ -267,11 +269,26 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-/* .bg-random {
-  background-image: url(https://source.unsplash.com/1980x1080/?fashion);
-   animation: scale 40s linear infinite; 
-} */
+.accordion-button {
+  background-color: #FCD34D !important;
+  font-family: 'Montserrat', sans-serif;
+}
 
+.accordion-button:focus {
+  box-shadow: none;
+}
 
+.accordion-button:not(.collapsed) {
+  color: #212529;
+}
 
+.accordion-item{
+  margin-top: 30px;
+  
+}
+
+.accordion-header{
+  display: flex;
+  text-align: center;
+}
 
