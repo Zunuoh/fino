@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
 
-const ButtonComponent = () => {
+const ButtonComponent = (props) => {
   return (
     <div>
        <Button
@@ -12,7 +12,7 @@ const ButtonComponent = () => {
               fontWeight: "bold",
             }}
           >
-            Shop now
+           {props.label}
           </Button>
     </div>
   )

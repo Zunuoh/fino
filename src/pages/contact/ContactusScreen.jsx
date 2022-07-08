@@ -19,7 +19,7 @@ const ContactusScreen = () => {
                 <div className="contactusHeader">Contact us</div>
                 <div className="contactusText">
                   Need to get in touch with us? Either fill out the form with
-                  your enquiry of find the department email you'd like to
+                  your enquiry or find the department email you'd like to
                   contact below.
                 </div>
               </div>

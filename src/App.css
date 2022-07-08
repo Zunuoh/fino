@@ -211,8 +211,6 @@ body{
 .aboutusText{
   display:flex;
   text-align: center;
-  /* justify-content:center; */
-  /* align-items:center; */
   font-size:30px;
   max-width:60ch;
   margin-left:70px;
@@ -255,40 +253,14 @@ body{
 }
 
 .similarProducts{
-  background-color: aqua;
+  background-color: rgb(232, 237, 237);
   width: 15%;
   height: 165px;
   margin-left: 40px;
 }
-
-.productsButton{
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.accordion-button {
-  background-color: #FCD34D !important;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.accordion-button:focus {
-  box-shadow: none;
-}
-
-.accordion-button:not(.collapsed) {
-  color: #212529;
-}
-
-.accordion-item{
-  margin-top: 30px;
   
-}
 
-.accordion-header{
-  display: flex;
-  text-align: center;
-}
+
+
+
 

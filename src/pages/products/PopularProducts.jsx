@@ -1,6 +1,5 @@
 import React from "react";
-import { Button, Accordion } from "react-bootstrap";
-import ShirtOne from "../../assets/shirt1.jpeg";
+import Collapsible from "../../components/collapsible/collapsible";
 
 const PopularProducts = () => {
   return (
@@ -9,29 +8,24 @@ const PopularProducts = () => {
       <div className="similarProductsContainer">
         <div className="similarProducts">jfjf</div>
         <div className="similarProducts">jfjf</div>
+        <div className="similarProducts">jfjf</div>
+          <div className="similarProducts">jfjf</div>
+          <div className="similarProducts">jfjf</div>
+          <div className="similarProducts">jfjf</div>
       </div>
 
-      <Accordion>
-        <Accordion.Item eventKey="0">
-          <div
-            style={{
-              backgroundColor: "#FCD34D",
-              borderRadius: 1,
-              border: "none",
-            }}
-          >
-            {" "}
-            <Accordion.Header> See all popular products...</Accordion.Header>
-          </div>
+      <Collapsible label="Load more popular products">
+        <div className="similarProductsContainer">
+          <div className="similarProducts">jfjf</div>
+          <div className="similarProducts">jfjf</div>
+          <div className="similarProducts">jfjf</div>
+          <div className="similarProducts">jfjf</div>
+          <div className="similarProducts">jfjf</div>
+          <div className="similarProducts">jfjf</div>
+        </div>
+      </Collapsible>
 
-          <Accordion.Body>
-            <div className="similarProductsContainer">
-              <div className="similarProducts">jfjf</div>
-              <div className="similarProducts">jfjf</div>
-            </div>
-          </Accordion.Body>
-        </Accordion.Item>
-      </Accordion>
+     
     </div>
   );
 };

@@ -14,7 +14,7 @@ const HomeBanner = () => {
           ddd
         </div>
         <div className="bannerButton">
-          <ButtonComponent />
+          <ButtonComponent label="Shop now"/>
         </div>
       </div>
       <div className="bannerImageContainer">

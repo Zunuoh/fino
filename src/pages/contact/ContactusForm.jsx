@@ -1,5 +1,6 @@
 import React from "react";
-import { Form, Button } from "react-bootstrap";
+import { Form } from "react-bootstrap";
+import ButtonComponent from "../../components/button/ButtonComponent";
 
 const ContactusForm = () => {
   return (
@@ -37,18 +38,8 @@ const ContactusForm = () => {
             style={{ width: 520 }}
           />
         </Form.Group>
-        <Button
-          variant="primary"
-          type="submit"
-          style={{
-            backgroundColor: "#FCD34D",
-            border: "none",
-            fontWeight: "bold",
-            color: "black",
-          }}
-        >
-          Submit
-        </Button>
+        
+        <ButtonComponent label="Submit"/>
       </Form>
     </div>
   );
