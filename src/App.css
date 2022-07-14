@@ -248,14 +248,15 @@
 .similarProductsContainer{
   margin-top: 20px;
   display: flex;
-  
+  flex-direction: row;
 }
 
 .similarProducts{
-  background-color: rgb(232, 237, 237);
-  width: 15%;
-  height: 165px;
+  /* background-color: rgb(232, 237, 237); */
+  width: 40%;
+  height: 185px;
   margin-left: 40px;
+  background-color: #f5b86e;
 }
   
 
