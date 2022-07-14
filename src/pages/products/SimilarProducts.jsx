@@ -4,7 +4,7 @@ import Collapsible from "../../components/collapsible/collapsible";
 const SimilarProducts = () => {
   return (
     <div>
-      <div className="productsHeaders">SIMILAR PRODUCTS</div>
+      <div className="productsHeaders">SIMILAR PRODUCTS jhhj</div>
       <div className="similarProductsContainer">
         <div className="similarProducts">jfjf</div>
         <div className="similarProducts">jfjf</div>

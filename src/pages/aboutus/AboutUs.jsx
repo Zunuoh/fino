@@ -9,10 +9,8 @@ const AboutUs = () => {
       <div className="aboutusContainer">
         <div>About us</div>
         <div className="aboutusHeaderContainer">
-          <div style={{ flex: 7, fontSize: 35, fontWeight: "bold" }}>
-            We do things differently.......
-          </div>
-          <div style={{ flex: 3, height: "10ch" }}>
+          <div style={aboutStyle}>We do things differently.......</div>
+          <div style={aboutStyleOne}>
             Learn more about the company, the team behind it and how we think
           </div>
         </div>
@@ -34,4 +32,6 @@ const AboutUs = () => {
   );
 };
 
+const aboutStyle = { flex: 7, fontSize: 35, fontWeight: "bold" };
+const aboutStyleOne = { flex: 3, height: "10ch" };
 export default AboutUs;

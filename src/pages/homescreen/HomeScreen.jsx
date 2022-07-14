@@ -19,11 +19,11 @@ const HomeScreen = () => {
         <CompanyScreen />
       </div>
 
-      <div style={{ backgroundColor: "#FFFBEB", height: "80%" }}>
+      <div style={benefitScreenStyle}>
         <BenefitScreen />
       </div>
     </div>
   );
 };
-
+ const benefitScreenStyle = { backgroundColor: "#FFFBEB", height: "80%" }
 export default HomeScreen;

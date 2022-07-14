@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montez&family=Montserrat:wght@300&display=swap');
-body{
+/* body{
   font-family: 'Montserrat', sans-serif;
-}
+} */
 
 .headerContainer{
   background-color:#FFFBEB;
@@ -14,7 +14,6 @@ body{
 .homebannerContainer{
   padding-left: 40px;
   padding-right: 40px;
-  /* background-color: #FFF7ED */
   background-color: #FFFBEB;
 }
 
@@ -241,10 +240,10 @@ body{
   padding: 20px;
 }
 
-.productsHeaders{
+/* .productsHeaders{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-}
+} */
 
 .similarProductsContainer{
   margin-top: 20px;

@@ -25,7 +25,7 @@ const ContactusScreen = () => {
               </div>
             </div>
           </Col>
-          <Col sm={5} style={{ backgroundColor: "#faf8f0", height: "92vh" }}>
+          <Col sm={5} style={contactusForm}>
             <ContactusForm />
           </Col>
         </Row>
@@ -33,5 +33,7 @@ const ContactusScreen = () => {
     </div>
   );
 };
+
+const contactusForm = { backgroundColor: "#faf8f0", height: "92vh" };
 
 export default ContactusScreen;
