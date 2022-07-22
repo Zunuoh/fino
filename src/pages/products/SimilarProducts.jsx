@@ -1,20 +1,18 @@
 import React from "react";
 import Collapsible from "../../components/collapsible/collapsible";
-import ShirtOne from "../../assets/shirt1.jpeg";
-import ShirtTwo from "../../assets/shirt2.jpg";
 import { useState } from "react";
 
 const similarProductsList = [
-  { id: "0", image: { ShirtOne } },
-  { id: "1", image: { ShirtOne } },
-  { id: "2", image: { ShirtTwo } },
-  { id: "3", image: { ShirtOne } },
-  { id: "4", image: { ShirtOne } },
-  { id: "5", image: { ShirtOne } },
+  { id: "0", image:require("../../assets/shirt3.jpg") },
+  { id: "1", image:require("../../assets/shirt1.jpeg") },
+  { id: "2", image:require("../../assets/shirt2.jpg") },
+  { id: "3", image:require("../../assets/shirt3.jpg") },
+  { id: "4", image:require("../../assets/shirt2.jpg") },
+  { id: "5", image:require("../../assets/shirt1.jpeg") },
 ];
 
 const SimilarProducts = () => {
-  const [similarProducts, setSimilarProducts] = useState(similarProductsList);
+  const [similarProducts] = useState(similarProductsList);
   return (
     <div>
       <div className="productsHeaders">SIMILAR PRODUCTS</div>
@@ -24,7 +22,7 @@ const SimilarProducts = () => {
           similarProducts.map((similarProduct) => {
             return (
               <div className="similarProducts">
-                <img src={similarProduct.image} />
+                <img src={similarProduct.image} style={imageSize} alt=""/>
               </div>
             );
           })}
@@ -37,7 +35,7 @@ const SimilarProducts = () => {
               similarProducts.map((similarProduct) => {
                 return (
                   <div className="similarProducts">
-                    <img src={similarProduct.image} />
+                    <img src={similarProduct.image} style={imageSize} alt=""/>
                   </div>
                 );
               })}
@@ -47,5 +45,8 @@ const SimilarProducts = () => {
     </div>
   );
 };
+
+
+const imageSize = { width:"100%", height: 185}
 
 export default SimilarProducts;

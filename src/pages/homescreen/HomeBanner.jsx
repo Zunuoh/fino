@@ -18,7 +18,7 @@ const HomeBanner = () => {
         </div>
       </div>
       <div className="bannerImageContainer">
-        <div className="bannerImageDiv">
+        <div>
           <img src={bannerChair} alt="" className="bannerImage" />
         </div>
       </div>
