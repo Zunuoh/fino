@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montez&family=Montserrat:wght@300&display=swap');
-body{
+/* body{
   font-family: 'Montserrat', sans-serif;
-}
+} */
 
 .headerContainer{
   background-color:#FFFBEB;
@@ -14,7 +14,6 @@ body{
 .homebannerContainer{
   padding-left: 40px;
   padding-right: 40px;
-  /* background-color: #FFF7ED */
   background-color: #FFFBEB;
 }
 
@@ -211,8 +210,6 @@ body{
 .aboutusText{
   display:flex;
   text-align: center;
-  /* justify-content:center; */
-  /* align-items:center; */
   font-size:30px;
   max-width:60ch;
   margin-left:70px;
@@ -229,6 +226,48 @@ body{
   font-weight: bold;
 }
 
+.productHeader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+ 
+}
+
+.productContainer{
+  padding: 20px;
+}
+
+.similarProductsContainer{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.similarProducts{
+  /* background-color: rgb(232, 237, 237); */
+  width: 40%;
+  height: 185px;
+  margin-left: 40px;
+  background-color: #f5b86e;
+}
+
+.aboutusMain{
+  margin-top: 40px;
+}
+
+.aboutusMainHeader{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.aboutusMainText{
+  font-family: 'Montserrat', sans-serif;
+  max-width: 60ch;
+}
 
 
 

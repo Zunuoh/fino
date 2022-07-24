@@ -1,5 +1,6 @@
 import React from "react";
-import { Form, Button } from "react-bootstrap";
+import { Form } from "react-bootstrap";
+import ButtonComponent from "../../components/button/ButtonComponent";
 
 const ContactusForm = () => {
   return (
@@ -8,7 +9,7 @@ const ContactusForm = () => {
         <div style={{ display: "flex" }}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>First name</Form.Label>
-            <Form.Control type="text" style={{ width: 250 }} />
+            <Form.Control type="text" style={formControl} />
           </Form.Group>
 
           <Form.Group
@@ -17,13 +18,13 @@ const ContactusForm = () => {
             style={{ marginLeft: 20 }}
           >
             <Form.Label>Last name</Form.Label>
-            <Form.Control type="text" style={{ width: 250 }} />
+            <Form.Control type="text" style={formControl} />
           </Form.Group>
         </div>
 
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" style={{ width: 520 }} />
+          <Form.Control type="email" style={formControlOne} />
           <Form.Text className="text-muted">
             We'll never share your email with anyone else.
           </Form.Text>
@@ -34,24 +35,16 @@ const ContactusForm = () => {
           <Form.Control
             as="textarea"
             aria-label="With textarea"
-            style={{ width: 520 }}
+            style={formControlOne}
           />
         </Form.Group>
-        <Button
-          variant="primary"
-          type="submit"
-          style={{
-            backgroundColor: "#FCD34D",
-            border: "none",
-            fontWeight: "bold",
-            color: "black",
-          }}
-        >
-          Submit
-        </Button>
+        
+        <ButtonComponent label="Submit"/>
       </Form>
     </div>
   );
 };
 
+const formControl = { width: 250}
+const formControlOne = { width: 520 }
 export default ContactusForm;

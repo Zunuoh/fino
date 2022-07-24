@@ -10,7 +10,7 @@ const ContactusScreen = () => {
       <Header />
       <div>
         <Row>
-          <Col sm={7} style={{ backgroundColor: "" }}>
+          <Col sm={7}>
             <div className="contactusDiv">
               <div className="contactusIconDiv">
                 <img src={ContactusImage} alt="" className="contactusIcon" />
@@ -19,13 +19,13 @@ const ContactusScreen = () => {
                 <div className="contactusHeader">Contact us</div>
                 <div className="contactusText">
                   Need to get in touch with us? Either fill out the form with
-                  your enquiry of find the department email you'd like to
+                  your enquiry or find the department email you'd like to
                   contact below.
                 </div>
               </div>
             </div>
           </Col>
-          <Col sm={5} style={{ backgroundColor: "#faf8f0", height: "92vh" }}>
+          <Col sm={5} style={contactusForm}>
             <ContactusForm />
           </Col>
         </Row>
@@ -33,5 +33,7 @@ const ContactusScreen = () => {
     </div>
   );
 };
+
+const contactusForm = { backgroundColor: "#faf8f0", height: "92vh" };
 
 export default ContactusScreen;
